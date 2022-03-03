@@ -4,4 +4,7 @@ secretMessage.pop();
 secretMessage.push('to');
 secretMessage.push('Program');
 secretMessage[7] = 'right';
-console.log(secretMessage);
+secretMessage.shift();
+secretMessage.unshift('Programming');
+secretMessage.splice(6, 5, 'know');
+console.log(secretMessage.join(' '));
